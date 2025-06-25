@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: sentiment-backend
+    env: python
+    plan: free
+    region: oregon
+    rootDir: back end/back-end
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m flask --app app.py run --host=0.0.0.0 --port=10000
+    envVars:
+      - key: FLASK_ENV
+        value: production
