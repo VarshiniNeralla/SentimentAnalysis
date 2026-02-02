@@ -66,14 +66,18 @@ cd SentimentAnalysis
 
 ## 2️⃣ Backend Setup
 cd back\ end
+
 python -m venv venv
+
 .\venv\Scripts\activate     # Windows
+
 pip install -r requirements.txt
 
 ---
 
 ## 3️⃣ Frontend Setup
 cd ../front-end
+
 npm install
 
 ---
