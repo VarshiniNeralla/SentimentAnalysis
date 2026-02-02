@@ -61,37 +61,43 @@ SentimentAnalysis/
 ```bash
 git clone https://github.com/VarshiniNeralla/SentimentAnalysis.git
 cd SentimentAnalysis
-2️⃣ Backend Setup
+```
+---
+
+## 2️⃣ Backend Setup
 cd back\ end
 python -m venv venv
 .\venv\Scripts\activate     # Windows
 pip install -r requirements.txt
-3️⃣ Frontend Setup
+
+---
+
+## 3️⃣ Frontend Setup
 cd ../front-end
 npm install
-4️⃣ Run the Application
-Start the backend server
 
-Run the frontend application
+---
 
-Access the application through the configured local host port
+## 4️⃣ Run the Application
 
-🔄 Workflow
-Load customer review dataset (CSV)
+- Start the backend server
+- Run the frontend application
+- Access the application through the configured localhost port
 
-Clean and preprocess textual data
+---
 
-Apply sentiment classification model
+## 🔄 Workflow
 
-Categorize reviews as positive, negative, or neutral
+- Load customer review dataset (CSV)
+- Clean and preprocess textual data
+- Apply sentiment classification model
+- Categorize reviews as positive, negative, or neutral
+- Display sentiment insights through the frontend
 
-Display sentiment insights through the frontend
+---
 
-📈 Use Cases
-Product review analysis
-
-Customer feedback monitoring
-
-Market sentiment understanding
-
-Business intelligence support
+## 📈 Use Cases
+- Product review analysis
+- Customer feedback monitoring
+- Market sentiment analysis
+- Business intelligence support
